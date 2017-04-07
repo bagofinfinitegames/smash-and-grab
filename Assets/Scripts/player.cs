@@ -2,7 +2,7 @@
 using System.Collections;
 
 public class player : MonoBehaviour {
-    NavMeshAgent agent;
+    public NavMeshAgent agent;
 
     void Start() {
         agent = GetComponent<NavMeshAgent>();
