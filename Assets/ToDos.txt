@@ -1,0 +1,43 @@
+Player
+  Mesh
+    Rig
+    Animate
+    UVW
+    Texture
+  Take damage
+  receive pickups
+  interact with triggers
+
+Triggers
+  Doors
+  Others?
+
+Pickups
+  Types
+  Meshes / UVW / Textures
+  push info to player
+
+Enemy
+  Mesh
+    Rig
+    Animate
+    UVW
+    Textures
+  Hit / Damage player
+
+UI
+  Title
+  Menus
+  In Game
+    Life
+	Tools / Inventory
+
+Objects
+  Lantern
+  Door
+  Obelisk
+  Rocks
+  Plants
+
+Over world map?
+Dungeon Generator?
