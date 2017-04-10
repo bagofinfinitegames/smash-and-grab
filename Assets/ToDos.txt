@@ -8,8 +8,12 @@ Player
   receive pickups
   interact with triggers
 
+Camera
+  follow
+
 Triggers
-  Doors
+  x - Doors
+  x - puzzles
   Others?
 
 Pickups
