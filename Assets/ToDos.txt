@@ -4,12 +4,12 @@ Player
     Animate
     UVW
     Texture
-  Take damage
-  receive pickups
-  interact with triggers
+ x Take damage
+ x receive pickups
+ x interact with triggers
 
 Camera
-  follow
+  - follow ( fix )
 
 Triggers
   x - Doors
@@ -19,7 +19,7 @@ Triggers
 Pickups
   Types
   Meshes / UVW / Textures
-  push info to player
+ x push info to player
 
 Enemy
   Mesh
@@ -27,16 +27,18 @@ Enemy
     Animate
     UVW
     Textures
-  Hit / Damage player
+ x Hit / Damage player
 
 UI
   Title
   Menus
+  Music
+  Effects
   In Game
     Life
 	Tools / Inventory
 
-Objects
+Objects (meshes)
   Lantern
   Door
   Obelisk
