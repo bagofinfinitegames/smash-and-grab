@@ -3,11 +3,11 @@ using System.Collections;
 
 public class enemy : MonoBehaviour {
     public Transform target;
-    public NavMeshAgent agent;
+    public UnityEngine.AI.NavMeshAgent agent;
     public float viewDistance = 5.0f;
 
     void Start() {
-        agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
     void Update() {
