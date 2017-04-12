@@ -2,10 +2,10 @@
 using System.Collections;
 
 public class player : MonoBehaviour {
-    public NavMeshAgent agent;
+    public UnityEngine.AI.NavMeshAgent agent;
 
     void Start() {
-        agent = GetComponent<NavMeshAgent>();
+        agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
     void Update() {
