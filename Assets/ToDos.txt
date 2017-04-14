@@ -33,8 +33,12 @@ UI
   Title
   Menus
   Music - https://v-play.net/game-resources/free-music-for-games
+    x - Random Music Player
   Game Manager
-  Effects
+    Load
+	Save
+	Clear
+  Sound Effects
   In Game
     Life
 	Tools / Inventory
