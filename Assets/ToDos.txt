@@ -17,7 +17,7 @@ Triggers
   Others?
 
 Pickups
-  Types
+  - Types
   Meshes / UVW / Textures
  x push info to player
 
@@ -35,9 +35,9 @@ UI
   Music - https://v-play.net/game-resources/free-music-for-games
     x - Random Music Player
   Game Manager
-    Load
-	Save
-	Clear
+    - Load
+	- Save
+	- Clear
   Sound Effects
   In Game
     Life
