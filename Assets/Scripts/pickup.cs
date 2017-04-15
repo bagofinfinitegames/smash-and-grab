@@ -2,9 +2,10 @@
 using System.Collections;
 
 public class pickup : MonoBehaviour {
-    public GameObject PickupParticles;
-    public enum PickupTypes { Health = 1, Ammo = 2, Weapon = 3 };
+    //public GameObject PickupParticles;
+    public enum PickupTypes { Health = 0, Ammo = 1, Weapon = 2 };
     public PickupTypes myType = PickupTypes.Health;
+    public int id;
     public PickupSettings[] myPickupSettings;
     public Transform myGeometry;
 
@@ -12,20 +13,17 @@ public class pickup : MonoBehaviour {
         if(myGeometry == null) {
             myGeometry = transform.GetChild(0);
         }
-        Debug.Log(myType);
-        int id = (int)myType;
+        id = (int)myType;
         MeshFilter myFilter = myGeometry.GetComponent<MeshFilter>();
         myFilter.sharedMesh = myPickupSettings[id].mesh;
-        //texture
-        //material
+        Renderer myRenderer = myGeometry.GetComponent<Renderer>();
+        myRenderer.material.mainTexture = myPickupSettings[id].texture;
     }
 
     private void OnTriggerEnter(Collider other) {
-        Debug.Log("Got Hit!");
         if (other.gameObject.CompareTag("Player")) {
-            Debug.Log("Player hit!");
             Destroy(gameObject);
-            Instantiate(PickupParticles, transform.position, Quaternion.identity);
+            Instantiate(myPickupSettings[id].particles, transform.position, Quaternion.identity);
         }
     }
 }

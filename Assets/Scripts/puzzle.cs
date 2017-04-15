@@ -2,20 +2,27 @@
 using System.Collections;
 
 public class puzzle : MonoBehaviour {
+    public bool activated = false;
     public GameObject[] triggers;
     public Light myLight;
+    public AudioClip successSound;
+    public AudioSource audioSource;
 
-	// Use this for initialization
 	void Start () {
 	    if(myLight == null) {
             myLight = this.transform.Find("Puzzle Light").GetComponent<Light>();
         }
+        if(audioSource == null) {
+            audioSource = transform.GetComponent<AudioSource>();
+            audioSource.clip = successSound;
+        }
 	}
 	
-	// Update is called once per frame
 	void Update () {
-        if (checkTriggers()) {
-            myLight.enabled = true;
+        if (checkTriggers() && !activated) {
+            activated = true;
+            audioSource.Play();
+            StartCoroutine(TurnOnLightInSeconds(0.75f));
         }
 	}
 
@@ -34,5 +41,10 @@ public class puzzle : MonoBehaviour {
         } else {
             return false;
         }
+    }
+
+    IEnumerator TurnOnLightInSeconds(float waitTime) {
+        yield return new WaitForSeconds(waitTime);
+        myLight.enabled = true;
     }
 }
