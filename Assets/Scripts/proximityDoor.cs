@@ -11,14 +11,12 @@ public class proximityDoor : MonoBehaviour {
 
     void OnTriggerEnter(Collider other) {
         if(other.CompareTag("Player")) {
-            Debug.Log("Open for player");
             doorAnim.SetTrigger("Open");
         }
     }
 
     void OnTriggerExit(Collider other) {
         if(other.CompareTag("Player")) {
-            Debug.Log("Close for player");
             doorAnim.SetTrigger("Close");
         }
     }
