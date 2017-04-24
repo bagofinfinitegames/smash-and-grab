@@ -3,9 +3,14 @@ using System.Collections;
 
 public class player : MonoBehaviour {
     public UnityEngine.AI.NavMeshAgent agent;
+    public Transform weaponSocket;
+    public GameObject weapon;
 
     void Start() {
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        GameObject myWeapon = Instantiate(weapon, weaponSocket.position, weaponSocket.rotation);
+        myWeapon.transform.parent = player.transform;
     }
 
     void Update() {

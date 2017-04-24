@@ -28,6 +28,8 @@ Enemy
     UVW
     Textures
  x Hit / Damage player
+ x Take Damage
+!  Die when health == 0
 
 UI
   Title
