@@ -14,6 +14,8 @@ public class healthUI : MonoBehaviour {
     }
 
     public void SetHealth(float health) {
-        unitHealth.text = health.ToString();
+        if (unitHealth) {
+            unitHealth.text = health.ToString();
+        }
     }
 }
