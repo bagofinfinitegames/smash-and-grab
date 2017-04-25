@@ -25,4 +25,8 @@ public class player : MonoBehaviour {
             }
         }
     }
+
+    void Die() {
+        Debug.Log("Player is dead");
+    }
 }

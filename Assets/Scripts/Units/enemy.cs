@@ -20,4 +20,9 @@ public class enemy : MonoBehaviour {
             //agent.Stop();
         }
     }
+
+    void Die() {
+        Debug.Log("Enemy is Dead");
+        Destroy(gameObject);
+    }
 }
