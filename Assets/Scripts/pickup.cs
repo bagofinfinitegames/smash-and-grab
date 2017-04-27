@@ -3,7 +3,7 @@ using System.Collections;
 
 public class pickup : MonoBehaviour {
     //public GameObject PickupParticles;
-    public enum PickupTypes { Health = 0, Ammo = 1, Weapon = 2 };
+    public enum PickupTypes { Health = 0, Ammo = 1, Weapon = 1 };
     public PickupTypes myType = PickupTypes.Health;
     public int id;
     public PickupSettings[] myPickupSettings;

@@ -5,6 +5,7 @@ public class enemy : MonoBehaviour {
     public Transform target;
     public UnityEngine.AI.NavMeshAgent agent;
     public float viewDistance = 5.0f;
+    public GameObject drop;
 
     void Start() {
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
@@ -23,6 +24,7 @@ public class enemy : MonoBehaviour {
 
     void Die() {
         Debug.Log("Enemy is Dead");
+        Instantiate(drop, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }
