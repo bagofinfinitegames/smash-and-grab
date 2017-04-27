@@ -3,7 +3,8 @@ using System.Collections;
 
 public class pickup : MonoBehaviour {
     //public GameObject PickupParticles;
-    public enum PickupTypes { Health = 0, Ammo = 1, Weapon = 1 };
+    public enum PickupTypes { Health = 0, Ammo = 1, Weapon = 2, Random = 42 };
+    private int maxTypes = 2;
     public PickupTypes myType = PickupTypes.Health;
     public int id;
     public PickupSettings[] myPickupSettings;
@@ -14,6 +15,10 @@ public class pickup : MonoBehaviour {
             myGeometry = transform.GetChild(0);
         }
         id = (int)myType;
+        if(id == 42) {
+            id = Random.Range(0, maxTypes + 1);
+            myType = (PickupTypes)id;
+        }
         MeshFilter myFilter = myGeometry.GetComponent<MeshFilter>();
         myFilter.sharedMesh = myPickupSettings[id].mesh;
         Renderer myRenderer = myGeometry.GetComponent<Renderer>();
