@@ -30,6 +30,8 @@ Enemy
  x Hit / Damage player
  x Take Damage
  x Die when health == 0
+ x Drop pickup on death
+ x Pickup drop rate
   Patrol between points
 
 UI
