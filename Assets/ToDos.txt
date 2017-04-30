@@ -29,7 +29,10 @@ Enemy
     Textures
  x Hit / Damage player
  x Take Damage
-!  Die when health == 0
+ x Die when health == 0
+ x Drop pickup on death
+ x Pickup drop rate
+  Patrol between points
 
 UI
   Title
