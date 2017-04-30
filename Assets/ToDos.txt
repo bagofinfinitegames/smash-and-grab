@@ -29,7 +29,8 @@ Enemy
     Textures
  x Hit / Damage player
  x Take Damage
-!  Die when health == 0
+ x Die when health == 0
+  Patrol between points
 
 UI
   Title

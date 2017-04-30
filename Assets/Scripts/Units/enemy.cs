@@ -5,6 +5,7 @@ public class enemy : MonoBehaviour {
     public Transform target;
     public UnityEngine.AI.NavMeshAgent agent;
     public float viewDistance = 5.0f;
+    public int dropRate = 5; // drop rate is 1 in dropRate
     public GameObject drop;
 
     void Start() {
@@ -24,7 +25,13 @@ public class enemy : MonoBehaviour {
 
     void Die() {
         Debug.Log("Enemy is Dead");
-        Instantiate(drop, transform.position, Quaternion.identity);
+
+        int rand = Random.Range(0, dropRate);
+        if(rand == 0) {
+            Debug.Log("Chanced to drop");
+            Instantiate(drop, transform.position, Quaternion.identity);
+        }
+
         Destroy(gameObject);
     }
 }
