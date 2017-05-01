@@ -52,10 +52,16 @@ UI
 
 Objects (meshes)
   Lantern
+  Bench
   Door
   Obelisk
   Rocks
+    short medium tall
+	thin average fat
   Plants
+    Grass
+	Bushes
+	Trees
 
 Over world map?
 Dungeon Generator?
