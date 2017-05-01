@@ -7,11 +7,11 @@ public class gameManager : MonoBehaviour {
     public int currentScore = 0;
 
 	void Start () {
-        highScore = loadHighScore();
+        highScore = LoadHighScore();
     }
 
     // Returns the saved highscore or 0 if there is no existing save.
-    int loadHighScore() {
+    int LoadHighScore() {
         if (Exists("HighScore")) {
             return LoadInt("HighScore");
         } else {
@@ -20,11 +20,23 @@ public class gameManager : MonoBehaviour {
     }
 
     // Saves the passed score only if it is greater than the last saved score.
-    public void saveHighScore(int highScore) {
+    public void SaveHighScore(int highScore) {
         int curHighScore = LoadInt("HighScore");
         if(highScore > curHighScore) {
             SaveInt("HighScore", highScore);
         }
+    }
+
+    public void SaveGame(string scene, string position) {
+        SaveString("CurrentScene", scene);
+        SaveString("CurrentPosition", position);
+    }
+
+    public string[] LoadGame() {
+        string scene = LoadString("CurrentScene");
+        string position = LoadString("CurrentPosition");
+        string[] output = { scene, position };
+        return output;
     }
 
     bool Exists(string key) {
@@ -39,12 +51,20 @@ public class gameManager : MonoBehaviour {
         return PlayerPrefs.GetFloat(key);
     }
 
+    string LoadString(string key) {
+        return PlayerPrefs.GetString(key);
+    }
+
     void SaveInt(string key, int value) {
         PlayerPrefs.SetInt(key, value);
     }
 
     void SaveFloat(string key, float value) {
         PlayerPrefs.SetFloat(key, value);
+    }
+
+    void SaveString(string key, string value) {
+        PlayerPrefs.SetString(key, value);
     }
 
     void ClearSaves() {

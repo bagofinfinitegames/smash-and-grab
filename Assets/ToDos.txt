@@ -9,11 +9,12 @@ Player
  x interact with triggers
 
 Camera
-  - follow ( fix )
+  - follow ( fix / ? )
 
 Triggers
   x - Doors
   x - puzzles
+  - bridges
   Others?
 
 Pickups
@@ -32,7 +33,7 @@ Enemy
  x Die when health == 0
  x Drop pickup on death
  x Pickup drop rate
-  Patrol between points
+ x Patrol between points
 
 UI
   Title
@@ -40,12 +41,13 @@ UI
   Music - https://v-play.net/game-resources/free-music-for-games
     x - Random Music Player
   Game Manager
-    - Load
-	- Save
-	- Clear
+    x - Load
+	x - Save
+	x - Clear
+	x - Save / Load level info
   Sound Effects
   In Game
-    Life
+    ~ Life
 	Tools / Inventory
 
 Objects (meshes)
