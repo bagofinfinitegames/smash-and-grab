@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="1024"
+   viewBox="0 0 1024 1024"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Plant_BroadLeafUVW.svg"
+   inkscape:export-filename="C:\Users\arlen\Documents\smash-and-grab\Assets\Textures\Plant_BroadLeafDiffuse.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.49497475"
+     inkscape:cx="507.93895"
+     inkscape:cy="470.49742"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1332"
+     inkscape:window-height="805"
+     inkscape:window-x="576"
+     inkscape:window-y="104"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-28.362161)">
+    <path
+       style="fill:#a6d951;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 961.74644,92.676633 c 36.68371,32.127747 -28.36915,225.341687 -72.7919,335.492477 -16.94902,42.02683 -34.64769,77.57637 -57.04772,117.86973 -2.59683,4.6712 -43.8979,-0.73077 -43.8979,-0.73077 8.81572,4.66304 21.67682,31.43435 18.53768,36.67473 -25.54768,42.64845 -47.98037,83.33778 -79.23677,120.90719 -62.23637,74.80656 -116.64871,151.47456 -216.19295,203.94929 -39.20674,20.66782 -156.81323,45.37535 -156.81323,45.37535 l -24.95231,-45.52289 -18.19849,49.22996 c 0,0 -172.98137,-6.36677 -189.93454,-22.75754 C 75.515126,888.97713 72.462169,658.4595 143.29953,543.08284 164.75755,508.133 211.92091,450.42732 211.92091,450.42732 l 71.97297,17.3394 -20.59054,-65.47248 c 0,0 55.92371,-58.08429 84.12822,-79.32313 82.61043,-62.2081 175.96834,-115.00881 272.72088,-151.52288 32.94837,-12.4346 147.0342,-49.84949 147.0342,-49.84949 l 39.18591,34.37001 6.47073,-46.31735 c 0,0 131.16053,-32.513836 148.90316,-16.974767 z"
+       id="path4147"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="sscccsscccsscccsscccs" />
+  </g>
+</svg>
