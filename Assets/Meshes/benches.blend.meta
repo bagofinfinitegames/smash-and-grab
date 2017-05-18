@@ -8,17 +8,22 @@ ModelImporter:
     100000: //RootNode
     100002: Bench_01
     100004: Bench_02
+    100006: Bench_03
     400000: //RootNode
     400002: Bench_01
     400004: Bench_02
+    400006: Bench_03
     2300000: //RootNode
     2300002: Bench_01
     2300004: Bench_02
+    2300006: Bench_03
     3300000: //RootNode
     3300002: Bench_01
     3300004: Bench_02
+    3300006: Bench_03
     4300000: Bench_01
     4300002: Bench_02
+    4300004: Bench_03
     7400000: Default Take
     9500000: //RootNode
   materials:
