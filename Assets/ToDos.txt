@@ -62,6 +62,12 @@ Objects (meshes)
     Grass
 	Bushes
 	Trees
+  Props
+    Chest
+	Crate
+	Pot
+	Barrel
+
 
 Over world map?
 Dungeon Generator?

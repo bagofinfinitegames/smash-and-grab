@@ -14,6 +14,11 @@ ModelImporter:
     100012: Chest_01_Mesh
     100014: Chest_Base
     100016: Chest_Lid
+    100018: Base
+    100020: Chest_01_Mesh_001
+    100022: Chest_02
+    100024: Pivot
+    100026: Chest_02_Mesh
     400000: //RootNode
     400002: Crate
     400004: Pot_01
@@ -23,6 +28,11 @@ ModelImporter:
     400012: Chest_01_Mesh
     400014: Chest_Base
     400016: Chest_Lid
+    400018: Base
+    400020: Chest_01_Mesh_001
+    400022: Chest_02
+    400024: Pivot
+    400026: Chest_02_Mesh
     2300000: //RootNode
     2300002: Crate
     2300004: Pot_01
@@ -38,10 +48,15 @@ ModelImporter:
     4300004: Pot_02
     4300006: Barrel_01
     4300008: Chest_01_Mesh
+    4300010: Chest_01_Mesh_001
+    4300012: Chest_02_Mesh
     7400000: Default Take
     7400002: ChestBonesAction
+    7400004: ChestOpen
     9500000: //RootNode
     13700000: Chest_01_Mesh
+    13700002: Chest_01_Mesh_001
+    13700004: Chest_02_Mesh
   materials:
     importMaterials: 1
     materialName: 0
