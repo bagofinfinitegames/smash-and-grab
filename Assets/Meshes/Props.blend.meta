@@ -21,6 +21,8 @@ ModelImporter:
     100026: Chest_02_Mesh
     100028: Well_01
     100030: Fence_Square
+    100032: Cylinder
+    100034: Fence_Round
     400000: //RootNode
     400002: Crate
     400004: Pot_01
@@ -37,6 +39,8 @@ ModelImporter:
     400026: Chest_02_Mesh
     400028: Well_01
     400030: Fence_Square
+    400032: Cylinder
+    400034: Fence_Round
     2300000: //RootNode
     2300002: Crate
     2300004: Pot_01
@@ -44,6 +48,8 @@ ModelImporter:
     2300008: Barrel_01
     2300010: Well_01
     2300012: Fence_Square
+    2300014: Cylinder
+    2300016: Fence_Round
     3300000: //RootNode
     3300002: Crate
     3300004: Pot_01
@@ -51,6 +57,8 @@ ModelImporter:
     3300008: Barrel_01
     3300010: Well_01
     3300012: Fence_Square
+    3300014: Cylinder
+    3300016: Fence_Round
     4300000: Crate
     4300002: Pot_01
     4300004: Pot_02
@@ -60,6 +68,8 @@ ModelImporter:
     4300012: Chest_02_Mesh
     4300014: Well_01
     4300016: Fence_Square
+    4300018: Cylinder
+    4300020: Fence_Round
     7400000: Default Take
     7400002: ChestBonesAction
     7400004: ChestOpen
