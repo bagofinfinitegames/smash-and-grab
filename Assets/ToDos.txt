@@ -67,6 +67,11 @@ Objects (meshes)
 	Crate
 	Pot
 	Barrel
+	fence
+	bucket
+	ladder
+	mushroom
+
 
 
 Over world map?
