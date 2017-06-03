@@ -26,6 +26,7 @@ ModelImporter:
     100036: Fence_Picket
     100038: Mushroom_01
     100040: Mushroom_02
+    100042: Mushroom_03
     400000: //RootNode
     400002: Crate
     400004: Pot_01
@@ -47,6 +48,7 @@ ModelImporter:
     400036: Fence_Picket
     400038: Mushroom_01
     400040: Mushroom_02
+    400042: Mushroom_03
     2300000: //RootNode
     2300002: Crate
     2300004: Pot_01
@@ -59,6 +61,7 @@ ModelImporter:
     2300018: Fence_Picket
     2300020: Mushroom_01
     2300022: Mushroom_02
+    2300024: Mushroom_03
     3300000: //RootNode
     3300002: Crate
     3300004: Pot_01
@@ -71,6 +74,7 @@ ModelImporter:
     3300018: Fence_Picket
     3300020: Mushroom_01
     3300022: Mushroom_02
+    3300024: Mushroom_03
     4300000: Crate
     4300002: Pot_01
     4300004: Pot_02
@@ -85,6 +89,7 @@ ModelImporter:
     4300022: Fence_Picket
     4300024: Mushroom_01
     4300026: Mushroom_02
+    4300028: Mushroom_03
     7400000: Default Take
     7400002: ChestBonesAction
     7400004: ChestOpen
