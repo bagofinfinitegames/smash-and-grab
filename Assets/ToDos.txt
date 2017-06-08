@@ -71,8 +71,9 @@ Objects (meshes)
 	bucket
 	ladder
 	mushroom
-
-
+	chair
+	stool
+	Table
 
 Over world map?
 Dungeon Generator?
