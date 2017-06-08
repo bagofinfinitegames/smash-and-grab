@@ -31,6 +31,7 @@ ModelImporter:
     100046: Ladder_01
     100048: GraveStone_01
     100050: Wall_01
+    100052: Stool_Square
     400000: //RootNode
     400002: Crate
     400004: Pot_01
@@ -57,6 +58,7 @@ ModelImporter:
     400046: Ladder_01
     400048: GraveStone_01
     400050: Wall_01
+    400052: Stool_Square
     2300000: //RootNode
     2300002: Crate
     2300004: Pot_01
@@ -74,6 +76,7 @@ ModelImporter:
     2300028: Ladder_01
     2300030: GraveStone_01
     2300032: Wall_01
+    2300034: Stool_Square
     3300000: //RootNode
     3300002: Crate
     3300004: Pot_01
@@ -91,6 +94,7 @@ ModelImporter:
     3300028: Ladder_01
     3300030: GraveStone_01
     3300032: Wall_01
+    3300034: Stool_Square
     4300000: Crate
     4300002: Pot_01
     4300004: Pot_02
@@ -110,6 +114,7 @@ ModelImporter:
     4300032: Ladder_01
     4300034: GraveStone_01
     4300036: Wall_01
+    4300038: Stool_Square
     7400000: Default Take
     7400002: ChestBonesAction
     7400004: ChestOpen
