@@ -34,6 +34,7 @@ ModelImporter:
     100052: Stool_Square
     100054: Stool_Round
     100056: Table_Square
+    100058: Table_Round
     400000: //RootNode
     400002: Crate
     400004: Pot_01
@@ -63,6 +64,7 @@ ModelImporter:
     400052: Stool_Square
     400054: Stool_Round
     400056: Table_Square
+    400058: Table_Round
     2300000: //RootNode
     2300002: Crate
     2300004: Pot_01
@@ -83,6 +85,7 @@ ModelImporter:
     2300034: Stool_Square
     2300036: Stool_Round
     2300038: Table_Square
+    2300040: Table_Round
     3300000: //RootNode
     3300002: Crate
     3300004: Pot_01
@@ -103,6 +106,7 @@ ModelImporter:
     3300034: Stool_Square
     3300036: Stool_Round
     3300038: Table_Square
+    3300040: Table_Round
     4300000: Crate
     4300002: Pot_01
     4300004: Pot_02
@@ -125,6 +129,7 @@ ModelImporter:
     4300038: Stool_Square
     4300040: Stool_Round
     4300042: Table_Square
+    4300044: Table_Round
     7400000: Default Take
     7400002: ChestBonesAction
     7400004: ChestOpen

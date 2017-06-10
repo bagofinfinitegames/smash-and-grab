@@ -51,29 +51,31 @@ UI
 	Tools / Inventory
 
 Objects (meshes)
-  Lantern
-  Bench
-  Door
-  Obelisk
+  x Lantern
+  x Bench
+  x Door
+  x Obelisk
   Rocks
-    short medium tall
-	thin average fat
+    x short medium tall
+	x thin average fat
   Plants
-    Grass
-	Bushes
-	Trees
+    x Grass
+	x Bushes
+	x Trees
   Props
-    Chest
-	Crate
-	Pot
-	Barrel
-	fence
-	bucket
-	ladder
-	mushroom
+    x Chest
+	x Crate
+	x Pot
+	x Barrel
+	x fence
+	x bucket
+	x ladder
+	x mushroom
+	x stool
+	x Table
 	chair
-	stool
-	Table
+	bridge
+	gate
 
 Over world map?
 Dungeon Generator?
