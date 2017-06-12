@@ -14,6 +14,7 @@ ModelImporter:
     100012: Tree_02_02
     100014: Tree_01_03
     100016: Tree_02_03
+    100018: Tree_03_01
     400000: //RootNode
     400002: Tree_01
     400004: Tree_02
@@ -23,6 +24,7 @@ ModelImporter:
     400012: Tree_02_02
     400014: Tree_01_03
     400016: Tree_02_03
+    400018: Tree_03_01
     2300000: //RootNode
     2300002: Tree_01
     2300004: Tree_02
@@ -32,6 +34,7 @@ ModelImporter:
     2300012: Tree_02_02
     2300014: Tree_01_03
     2300016: Tree_02_03
+    2300018: Tree_03_01
     3300000: //RootNode
     3300002: Tree_01
     3300004: Tree_02
@@ -41,6 +44,7 @@ ModelImporter:
     3300012: Tree_02_02
     3300014: Tree_01_03
     3300016: Tree_02_03
+    3300018: Tree_03_01
     4300000: Tree_01
     4300002: Tree_02
     4300004: Tree_01_02
@@ -49,6 +53,7 @@ ModelImporter:
     4300010: Tree_02_02
     4300012: Tree_01_03
     4300014: Tree_02_03
+    4300016: Tree_03_01
     7400000: Default Take
     9500000: //RootNode
   materials:
