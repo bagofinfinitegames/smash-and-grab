@@ -62,6 +62,7 @@ Objects (meshes)
     x Grass
 	x Bushes
 	x Trees
+	  Pine tree
   Props
     x Chest
 	x Crate
@@ -73,9 +74,44 @@ Objects (meshes)
 	x mushroom
 	x stool
 	x Table
-	chair
+	x chair
 	bridge
 	gate
+
+  Monsters
+    Mummy
+	Wolfman
+	Vampire
+	Swamp creature
+	Hunchback
+	Frankenstein
+	Invisible Man
+	The Blob
+	Phantom of the opera
+	Freddy
+	Jason
+	Alien
+	Dr Jekyl / Mr Hyde
+	Zombie
+	Shark
+	Robot
+	Godzilla
+	Ghost
+	Devil
+	Under the bead
+	Mimic
+	King Kong
+	Dinosaurs
+	Pirannas
+	Eyeball
+
+  Hats
+    Adventure (indy)
+	Cowboy
+	Fedora
+	Police
+	Witch
+	Paperboy
 
 Over world map?
 Dungeon Generator?
