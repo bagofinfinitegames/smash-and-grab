@@ -62,7 +62,10 @@ Objects (meshes)
     x Grass
 	x Bushes
 	x Trees
-	  Pine tree
+	  x Pine tree
+	  x Palm tree
+	  x Leaf tree
+	Stump
   Props
     x Chest
 	x Crate
@@ -75,6 +78,7 @@ Objects (meshes)
 	x stool
 	x Table
 	x chair
+	bag
 	bridge
 	gate
 
