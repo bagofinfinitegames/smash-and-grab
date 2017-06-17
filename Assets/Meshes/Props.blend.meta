@@ -39,6 +39,7 @@ ModelImporter:
     100062: Bag
     100064: Bag_01
     100066: Stump_01
+    100068: Bridge_Round
     400000: //RootNode
     400002: Crate
     400004: Pot_01
@@ -73,6 +74,7 @@ ModelImporter:
     400062: Bag
     400064: Bag_01
     400066: Stump_01
+    400068: Bridge_Round
     2300000: //RootNode
     2300002: Crate
     2300004: Pot_01
@@ -98,6 +100,7 @@ ModelImporter:
     2300044: Bag
     2300046: Bag_01
     2300048: Stump_01
+    2300050: Bridge_Round
     3300000: //RootNode
     3300002: Crate
     3300004: Pot_01
@@ -123,6 +126,7 @@ ModelImporter:
     3300044: Bag
     3300046: Bag_01
     3300048: Stump_01
+    3300050: Bridge_Round
     4300000: Crate
     4300002: Pot_01
     4300004: Pot_02
@@ -150,6 +154,7 @@ ModelImporter:
     4300048: Bag
     4300050: Bag_01
     4300052: Stump_01
+    4300054: Bridge_Round
     7400000: Default Take
     7400002: ChestBonesAction
     7400004: ChestOpen
