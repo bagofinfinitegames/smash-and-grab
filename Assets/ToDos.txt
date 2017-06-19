@@ -79,7 +79,7 @@ Objects (meshes)
 	x Table
 	x chair
 	x bag
-	bridge
+	x bridge
 	gate
 
   Monsters
