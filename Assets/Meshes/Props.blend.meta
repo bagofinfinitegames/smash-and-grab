@@ -42,6 +42,7 @@ ModelImporter:
     100068: Bridge_Round
     100070: Bridge_Wood
     100072: Gate_01
+    100074: Gate_02
     400000: //RootNode
     400002: Crate
     400004: Pot_01
@@ -79,6 +80,7 @@ ModelImporter:
     400068: Bridge_Round
     400070: Bridge_Wood
     400072: Gate_01
+    400074: Gate_02
     2300000: //RootNode
     2300002: Crate
     2300004: Pot_01
@@ -107,6 +109,7 @@ ModelImporter:
     2300050: Bridge_Round
     2300052: Bridge_Wood
     2300054: Gate_01
+    2300056: Gate_02
     3300000: //RootNode
     3300002: Crate
     3300004: Pot_01
@@ -135,6 +138,7 @@ ModelImporter:
     3300050: Bridge_Round
     3300052: Bridge_Wood
     3300054: Gate_01
+    3300056: Gate_02
     4300000: Crate
     4300002: Pot_01
     4300004: Pot_02
@@ -165,6 +169,7 @@ ModelImporter:
     4300054: Bridge_Round
     4300056: Bridge_Wood
     4300058: Gate_01
+    4300060: Gate_02
     7400000: Default Take
     7400002: ChestBonesAction
     7400004: ChestOpen

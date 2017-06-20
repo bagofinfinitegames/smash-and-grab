@@ -19,6 +19,8 @@ Triggers
 
 Pickups
   - Types
+   health
+   power ups
   Meshes / UVW / Textures
  x push info to player
 
@@ -80,7 +82,7 @@ Objects (meshes)
 	x chair
 	x bag
 	x bridge
-	gate
+	x gate
 
   Monsters
     Mummy
