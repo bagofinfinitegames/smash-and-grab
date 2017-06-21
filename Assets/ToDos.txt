@@ -105,11 +105,15 @@ Objects (meshes)
 	Ghost
 	Devil
 	Under the bead
+	In the closet
 	Mimic
 	King Kong
 	Dinosaurs
 	Pirannas
 	Eyeball
+	Pumpkin Monster
+	Scarecrow
+	cuthlu
 
   Hats
     Adventure (indy)
@@ -118,6 +122,8 @@ Objects (meshes)
 	Police
 	Witch
 	Paperboy
+	Baseball
+	Beanie
 
 Over world map?
 Dungeon Generator?
