@@ -83,6 +83,7 @@ Objects (meshes)
 	x bag
 	x bridge
 	x gate
+	x fire
 
   Monsters
     Mummy
@@ -109,11 +110,15 @@ Objects (meshes)
 	Mimic
 	King Kong
 	Dinosaurs
+	Lizard Men
+	Goblins
 	Pirannas
 	Eyeball
 	Pumpkin Monster
 	Scarecrow
 	cuthlu
+	Golem
+	Ifrit(?)
 
   Hats
     Adventure (indy)
