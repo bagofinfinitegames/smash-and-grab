@@ -44,6 +44,7 @@ ModelImporter:
     100072: Gate_01
     100074: Gate_02
     100076: FirePit_01
+    100078: Log_01
     400000: //RootNode
     400002: Crate
     400004: Pot_01
@@ -83,6 +84,7 @@ ModelImporter:
     400072: Gate_01
     400074: Gate_02
     400076: FirePit_01
+    400078: Log_01
     2300000: //RootNode
     2300002: Crate
     2300004: Pot_01
@@ -113,6 +115,7 @@ ModelImporter:
     2300054: Gate_01
     2300056: Gate_02
     2300058: FirePit_01
+    2300060: Log_01
     3300000: //RootNode
     3300002: Crate
     3300004: Pot_01
@@ -143,6 +146,7 @@ ModelImporter:
     3300054: Gate_01
     3300056: Gate_02
     3300058: FirePit_01
+    3300060: Log_01
     4300000: Crate
     4300002: Pot_01
     4300004: Pot_02
@@ -175,6 +179,7 @@ ModelImporter:
     4300058: Gate_01
     4300060: Gate_02
     4300062: FirePit_01
+    4300064: Log_01
     7400000: Default Take
     7400002: ChestBonesAction
     7400004: ChestOpen
