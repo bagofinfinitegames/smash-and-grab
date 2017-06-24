@@ -84,9 +84,12 @@ Objects (meshes)
 	x bridge
 	x gate
 	x fire
+	x bottle
+	book
+	candle
 
   Monsters
-    Mummy
+    ! Mummy
 	Wolfman
 	Vampire
 	Swamp creature
