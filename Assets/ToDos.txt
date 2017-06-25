@@ -85,8 +85,12 @@ Objects (meshes)
 	x gate
 	x fire
 	x bottle
-	book
+	x book
 	candle
+	bed
+	shelf
+	stove
+	fireplace
 
   Monsters
     ! Mummy
